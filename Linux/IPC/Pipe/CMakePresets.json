@@ -32,5 +32,16 @@
         "CMAKE_BUILD_TYPE": "Release"
       }
     }
+  ],
+  "buildPresets": [
+    {
+      "name": "build-pipe",
+      "configurePreset": "conf-release",
+      "description": "Linux pipe used in single application",
+      "targets": [
+        "pipe"
+      ],
+      "verbose": true
+    }
   ]
 }
